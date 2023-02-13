@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+   
+ 
+</head>
+<body>
+    
+    <div class="renk">
+       <input type="color" id="favcolor" name="favcolor" >
+    </div>
+    <div class="card">
+        <div class="group">
+            <div class="grupyazi"><p>GROUP INFO</p></div>
+        </div>
+        <div class="checks">
+            <div class="checks1"><p><b class="KAA">KAA~40*|</b></p> <div class="kutu"><input type="color" id="favcolor1" name="favcolor" value="#050505 " ></div></div>
+        </div>
+        <div class="pro">
+            Pro
+        </div>
+        <div class="uzunyazi">
+            <p>Eğer bir oyuncu sizi gördüğü zaman durmadan ateş ediyorsa bilin ki o acemidir kurşununun bitmesini bekleyin ,bittiği zaman gidin kafasına sıkın.</p>
+            <p>Eğer sadece sizi gördüğü zaman ateş ediyor saklandığınız zaman duruyorsa o bir tecrübelidir,kaçın ve canınız...</p>
+        </div>
+        <div id="ranklar">
+           <ul id="ranklarinici">
+            <li  class="default"><div  class="kullanici"><p class="isimler">Kalamar</p>( <div class="ranks"><img class="pic" src="./resimler/rutbe1.png" alt="rutbe1"></div> ) <div class="duzen" ><img class="duzenimsi" name="0"  src="./resimler/duzenleme.png" alt="duzen"></div></div></li>
+           <li  class="default"><div class="kullanici"><p class="isimler">Kazuya</p>( <div class="ranks"><img class="pic" src="./resimler/rutbe2.png" alt="rutbe2"></div> ) <div class="duzen"><img class="duzenimsi"name="1"  src="./resimler/duzenleme.png" alt="duzen"></div></div></li>
+           <li  class="default"><div class="kullanici"><p class="isimler">xPsycho</p>( <div class="ranks"><img class="pic" src="./resimler/rutbe3.png" alt="rutbe3"></div> ) <div class="duzen"><img class="duzenimsi"name="2" src="./resimler/duzenleme.png" alt="duzen"></div></div></li>
+           <li  class="default"><div class="kullanici"><p class="isimler">freethewill</p>( <div class="ranks"><img class="pic" src="./resimler/rutbe4.png" alt="rutbe4"></div> ) <div class="duzen"><img class="duzenimsi"name="3" src="./resimler/duzenleme.png" alt="duzen"></div></div></li>
+           <li  class="default"><div class="kullanici"><p class="isimler">Shadow14</p>( <div class="ranks"><img class="pic" src="./resimler/rutbe5.png" alt="rutbe5"></div> ) <div class="duzen"><img class="duzenimsi"name="4" src="./resimler/duzenleme.png" alt="duzen"></div></div></li>
+        </ul>
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="ortakisim" >
+            <p class="bosyazi">Kullanıcı:</p>
+            <div id="kullaniciismi">
+                
+            </div>
+            <h3>Rank Seçin</h3>
+            <div class="model-rank">
+                <img class="modalpic" src="./resimler/rutbe1.png" alt="rutbe1">
+            </div>
+            <div class="model-rank">
+                <img class="modalpic" src="./resimler/rutbe2.png" alt="rutbe2">
+            </div>
+            <div class="model-rank">
+                <img class="modalpic" src="./resimler/rutbe3.png" alt="rutbe3">
+            </div>
+            <div class="model-rank">
+                <img class="modalpic" src="./resimler/rutbe4.png" alt="rutbe4">
+            </div>
+            <div class="model-rank">
+                <img class="modalpic" src="./resimler/rutbe5.png" alt="rutbe5">
+            </div>
+            <div class="alerts">
+                Başarılı bir şekilde güncellendi.
+            </div>
+            <div class="alertss">
+                Kullanıcının rankını güncellemek için onayla butonuna basın.
+            </div>
+            <div class="buttons">
+                <button class="butoncuk" id="kapat">Kapat</button>
+                <button class="butoncuk" id="onayla">Onayla</button>
+            </div>
+        </div>
+        
+      </div>
+    </div>  
+ 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>  
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>  
+    <script src="./main.js"></script>
+    
+    
+   
+</body>
+</html>
